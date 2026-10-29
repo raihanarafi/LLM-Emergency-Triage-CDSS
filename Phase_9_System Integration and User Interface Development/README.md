@@ -57,7 +57,7 @@ Project_Root/
  Open your terminal in the project root directory and create a clean isolated environment:
 # Clone the repository
 git clone <YOUR_REPOSITORY_URL>
-cd Project_Root
+cd Phase_9_System Integration and User Interface Development
 
 # Create a Python virtual environment
 python3 -m venv venv
