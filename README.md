@@ -54,7 +54,8 @@ Project_Root/
 ---
 
  ## Step 1: Clone Repository & Set Up Virtual Environment
- Open your terminal in the project root directory and create a clean isolated environment:Bash# Clone the repository
+ Open your terminal in the project root directory and create a clean isolated environment:
+# Clone the repository
 git clone <YOUR_REPOSITORY_URL>
 cd Project_Root
 
@@ -78,5 +79,4 @@ pip install -r requirements.txt
 Launch Command
 In your activated terminal, execute:
 
-Bash
 streamlit run app.py
