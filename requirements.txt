@@ -1,0 +1,16 @@
+streamlit
+transformers
+peft
+bitsandbytes
+accelerate
+faiss-cpu
+rank_bm25
+sentence-transformers
+shap
+xgboost
+scikit-learn
+fastapi
+uvicorn
+pydantic
+pandas
+numpy
