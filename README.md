@@ -25,3 +25,38 @@ The project can be divided into the following major phases:
 - **Phase 9:** System Integration and User Interface Development
 - **Phase 10:** Testing, Evaluation, and Clinical Validation
 - **Phase 11:** Deployment, Monitoring, and Continuous Learning
+
+---
+⚙️ Environment Setup & InstallationHardware & Software Prerequisites
+- OS: Linux (Ubuntu 20.04/22.04/24.04) or Windows 10/11 (via WSL2 or Native Python)
+- GPU: NVIDIA GPU with $\ge 8\text{ GB}$ VRAM (e.g., RTX 3060, RTX 4060, or workstation equivalent)
+- Python: Python 3.10 or 3.11
+---
+
+ ## Step 1: Clone Repository & Set Up Virtual Environment
+ Open your terminal in the project root directory and create a clean isolated environment:
+# Clone the repository
+git clone <YOUR_REPOSITORY_URL>
+cd Project_Root
+
+# Create a Python virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+# On Linux/macOS:
+source venv/bin/activate
+# On Windows PowerShell:
+.\venv\Scripts\Activate.ps1
+
+## Step 2: Install PyTorch & Project Dependencies
+Install CUDA-enabled PyTorch first, then install the package requirements:Bash# Install PyTorch with CUDA 12.1 support
+pip install torch torchvision torchaudio --index-url [https://download.pytorch.org/whl/cu121](https://download.pytorch.org/whl/cu121)
+
+# Install required project dependencies
+pip install -r requirements.txt
+
+🚀 How to Run the Application Locally
+Launch Command
+In your activated terminal, execute:
+
+streamlit run app.py
