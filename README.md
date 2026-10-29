@@ -36,8 +36,8 @@ The project can be divided into the following major phases:
  ## Step 1: Clone Repository & Set Up Virtual Environment
  Open your terminal in the project root directory and create a clean isolated environment:
 # Clone the repository
--git clone <YOUR_REPOSITORY_URL>
--cd Phase_9_System Integration and User Interface Development
+- git clone <YOUR_REPOSITORY_URL>
+- cd Phase_9_System Integration and User Interface Development
 
 # Create a Python virtual environment
 python3 -m venv venv
